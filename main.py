@@ -190,10 +190,10 @@ class DataBase:
     def __init__(self):
         
         self.data_base = database.connect(
-            host ="mysql.smart-vision.online", 
-            user = "smartvision01",
-            passwd = "vida1503A",
-            database = "smartvision01"
+            host ="", 
+            user = ",
+            passwd = "",
+            database = ""
         ) 
         
         self.cursor = self.data_base.cursor()
